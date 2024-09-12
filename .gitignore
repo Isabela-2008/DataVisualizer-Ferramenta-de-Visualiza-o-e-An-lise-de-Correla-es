@@ -1,0 +1,30 @@
+
+### `.gitignore`
+
+```gitignore
+# Ignorar arquivos de bytecode Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar ambientes virtuais
+venv/
+.env/
+
+# Ignorar arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Ignorar arquivos de cache
+*.cache
+
+# Ignorar arquivos de dados temporários
+*.csv
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
